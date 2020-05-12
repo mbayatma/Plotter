@@ -288,7 +288,7 @@ for var in variable_list :
     back_err.Draw("e2same")
     h_ggh.Draw ("hist same")
     h_VBF.Draw("hist same")
-    h_Data.Draw("pe same")
+    h_Data.Draw("pe same A")
 
     # Make a legend to the plot
     legend = rt.TLegend(0.65,0.55,0.90,0.90);
